@@ -1,0 +1,44 @@
+---
+layout: default
+---
+
+<article class="jp-post">
+  <div class="jp-post-title">
+    <h1>{{ page.title }}</h1>
+  </div>
+  <div class="jp-post-author">
+    <span>{{ site.author }}</span>
+  </div>
+  <div class="jp-post-content">
+    {{ content }}
+  </div>
+  <div class="jp-post-other">
+    <div class="jp-post-date">
+      Written on {{ page.date | date: "%B %e, %Y" }}.
+    </div>
+    <div class="jp-post-categories">
+      <span>Categories:</span>
+      {% for category in page.categories %}
+      <a href="{{ site.baseurl }}/categories#{{ category }}" class="jp-post-category">{{ category }}</a>
+      {% endfor %}
+    </div>
+    <div class="jp-post-tags">
+      <span>Tags:</span>
+      {% for tag in page.tags %}
+      <span class="jp-post-tag">{{ tag }}</span>
+      {% endfor %}
+    </div>
+    <div class="jp-post-tools">
+      {% if page.previous %}
+      <div>
+        <span>Previous: </span><a href="{{ page.previous.url }}">{{ page.previous.title }}</a>
+      </div>
+      {% endif %}
+      {% if page.next %}
+      <div>
+        <span>Next: </span><a href="{{ page.next.url }}">{{ page.next.title }}</a>
+      </div>
+      {% endif %}
+    </div>
+  </div>
+</article>

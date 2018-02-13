@@ -1,0 +1,222 @@
+/**
+ * highlight tokens
+ * tokens list: https://github.com/jneen/rouge/wiki/List-of-tokens 
+ */
+
+.highlight table td {
+  padding: 5px; 
+}
+
+.highlight table pre { 
+  margin: 0; 
+}
+
+.highlight .gl {
+  color: #5f6a6d;
+}
+
+.highlight .gp {
+  color: #2279a5;
+  font-weight: bold;
+}
+
+.highlight .c, .highlight .cd, .highlight .cm, .highlight .c1, .highlight .cs {
+  color: #228b22;
+  font-style: italic;
+}
+
+.highlight .cp {
+  color: #a52a2a;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.highlight .err {
+  color: #fefeec;
+  background-color: #c00;
+}
+
+.highlight .gr {
+  color: #c00;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.highlight .k, .highlight .kd, .highlight .kv {
+  color: #c71585;
+  font-weight: bold;
+}
+
+.highlight .o, .highlight .ow {
+  color: #157c83;
+  font-weight: bold;
+}
+
+.highlight .p, .highlight .pi {
+  color: #0f6f75;
+}
+
+.highlight .gd {
+  color: #c00;
+}
+
+.highlight .gi {
+  color: #78be36;
+}
+
+.highlight .ge {
+  font-style: italic;
+}
+
+.highlight .gs {
+  font-weight: bold;
+}
+
+.highlight .gt {
+  color: #dee5e7;
+  background-color: #4e5d62;
+}
+
+.highlight .kc {
+  color: #c71585;
+  font-weight: bold;
+}
+
+.highlight .kn {
+  color: #ffb000;
+  font-weight: bold;
+}
+
+.highlight .kp {
+  color: #ffb000;
+  font-weight: bold;
+}
+
+.highlight .kr {
+  color: #ffb000;
+  font-weight: bold;
+}
+
+.highlight .gh {
+  color: #ffb000;
+  font-weight: bold;
+}
+
+.highlight .gu {
+  color: #ffb000;
+  font-weight: bold;
+}
+
+.highlight .kt {
+  color: #808;
+  font-weight: bold;
+}
+
+.highlight .no {
+  color: #808;
+  font-weight: bold;
+}
+
+.highlight .nc {
+  color: #808;
+  font-weight: bold;
+}
+
+.highlight .nd {
+  color: #808;
+  font-weight: bold;
+}
+
+.highlight .nn {
+  color: #808;
+  font-weight: bold;
+}
+
+.highlight .bp {
+  color: #808;
+  font-weight: bold;
+}
+
+.highlight .ne {
+  color: #808;
+  font-weight: bold;
+}
+
+.highlight .nl {
+  color: #ffb000;
+  font-weight: bold;
+}
+
+.highlight .nt {
+  color: #ffb000;
+  font-weight: bold;
+}
+
+.highlight .m, .highlight .mf, .highlight .mh, .highlight .mi, .highlight .il, .highlight .mo, .highlight .mb, .highlight .mx {
+  color: #f696db;
+  font-weight: bold;
+}
+
+.highlight .ld {
+  color: #f696db;
+  font-weight: bold;
+}
+
+.highlight .ss {
+  color: #f696db;
+  font-weight: bold;
+}
+
+.highlight .s, .highlight .sb, .highlight .sd, .highlight .s2, .highlight .sh, .highlight .sx, .highlight .sr, .highlight .s1 {
+  color: #800;
+  font-weight: bold;
+}
+
+.highlight .se {
+  color: #800;
+  font-weight: bold;
+}
+
+.highlight .sc {
+  color: #800;
+  font-weight: bold;
+}
+
+.highlight .si {
+  color: #800;
+  font-weight: bold;
+}
+
+.highlight .nb {
+  font-weight: bold;
+}
+
+.highlight .ni {
+  color: #555;
+  font-weight: bold;
+}
+
+.highlight .w {
+  color: #777;
+}
+
+.highlight .go {
+  color: #444;
+}
+
+.highlight .nf {
+  color: #008;
+}
+
+.highlight .py {
+  color: #008;
+}
+
+.highlight .na {
+  color: #008;
+}
+
+.highlight .nv, .highlight .vc, .highlight .vg, .highlight .vi {
+  color: #008;
+  font-weight: bold;
+}

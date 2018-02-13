@@ -1,0 +1,265 @@
+@charset "utf-8";
+
+/* Reset default styles */
+* {
+  font-family: Courier New, Courier, monospace;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #aaa;
+}
+
+blockquote {
+  border-left: 2px solid #888;
+  margin: 15px;
+  padding-left: 15px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: normal;
+  margin: 5px 0;
+  text-indent: 0;
+}
+
+h2 {
+  font-size: 1.3em;
+}
+
+hr {
+  border: 1px solid #eee;
+  margin: 10px;
+}
+
+img {
+  max-width: 700px;
+}
+
+ol, ul {
+  margin-left: 35px;
+}
+
+p {
+  margin-bottom: 5px;
+}
+
+table {
+  width: 100%;
+}
+
+tbody tr:hover{
+  background-color: #f5f5f5;
+}
+
+td {
+  border-bottom: 1px solid #ddd;
+  padding: 8px;
+}
+
+th {
+  background: #f5f5f5;
+  border-bottom: 1px solid #ccc;
+  padding: 8px;
+}
+
+/* Other */
+.jp-wrapper {
+  margin: 0 auto;
+  max-width: 800px;
+  width: 100%;
+}
+
+.jp-left {
+  float: left;
+}
+
+.jp-right {
+  float: right;
+}
+
+.jp-center {
+  text-align: center;
+}
+
+/* Header */
+.jp-header {
+  border-bottom: solid 1px #aaa;
+  overflow: hidden;
+  padding: 10px 0;
+  width: 100%;
+}
+
+.jp-hd-site-info {
+  display: block;
+  position: relative;
+  margin: 10px;
+}
+
+.jp-hd-info-name {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.jp-hd-info-desc {
+  font-size: .9em;
+}
+
+.jp-hd-site-nav {
+  list-style: none;
+  margin: 0;
+}
+
+.jp-hd-site-nav-item {
+  display: block;
+  float: left;
+  position: relative;
+  margin: 0 10px;
+}
+
+/* Main */
+.jp-main {
+  width: 95%;
+  margin: 10px auto;
+  overflow: hidden;
+}
+
+/* Footer */
+.jp-footer {
+  border-top: solid 1px #aaa;
+  overflow: hidden;
+  padding: 10px 0;
+}
+
+.jp-ft-copyright {
+  overflow: hidden;
+}
+
+.jp-ft-copyright-text {
+  display: block;
+  position: relative;
+}
+
+/* Post list */
+.jp-posts-list-item {
+  display: block;
+  position: relative;
+  overflow: hidden;
+  margin: 5px 0;
+  line-height: 24px;
+}
+
+.jp-posts-list-item-name {
+  font-weight: 300;
+}
+
+.jp-list-pagination {
+  margin: 20px 0 10px 0;
+  text-align: center;
+}
+
+/* Post */
+.jp-post-author {
+  display: none;
+}
+
+.jp-post-content p {
+  line-height: 20px;
+}
+
+.jp-post-content img {
+  display: block;
+  margin: 10px auto;
+}
+
+.jp-post-other {
+  margin: 10px 0;
+  line-height: 24px;
+}
+
+.jp-post-category, .jp-post-tag {
+  margin: 0 5px;
+}
+
+/* Category */
+.jp-categories-list {
+  line-height: 24px;
+}
+
+/* Highlight */
+.highlight {
+  background-color: #eee;
+  border: 1px solid #ccc;
+  box-shadow: 3px 3px rgba(0, 0, 0, 0.1);
+  font-size: 14px;
+  line-height: 18px;
+  margin: 10px 0;
+  overflow-x: scroll;
+  padding-left: 3px;
+  text-indent: 0px;
+}
+
+.highlighter-rouge {
+  background-color: #eee;
+  font-size: 14px;
+}
+
+@media screen and (max-width: 768px) {
+  /* reset default styles */
+  img {
+    max-width: 300px;
+    width: 100%;
+  }
+
+  /* Posts list */
+  .jp-list-pagination {
+    margin: 10px 0 5px 0;
+  }
+
+  /* Footer */
+  .jp-ft-copyright .jp-left, .jp-ft-copyright .jp-right {
+    float: none;
+  }
+}
+
+@media print {
+  /* Header */
+  .jp-header {
+    display: none;
+  }
+
+  /* Footer */
+  .jp-footer {
+    display: none;
+  }
+
+  /* Post */
+  .jp-post-title {
+    text-align: center;
+  }
+
+  .jp-post-author {
+    display: block;
+    text-align: center;
+  }
+
+  .jp-post-other {
+    display: none;
+  }
+
+  /* Highlight */
+  pre.highlight {
+    overflow-x: hidden;
+    word-wrap: break-word;
+    white-space: pre-wrap;
+  }
+}
