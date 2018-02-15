@@ -140,13 +140,14 @@ th {
   padding: 10px 0;
 }
 
-.jp-ft-copyright {
+.jp-ft-cr {
   overflow: hidden;
 }
 
-.jp-ft-copyright-text {
+.jp-ft-cr-t {
   display: block;
   position: relative;
+  font-size: 14px;
 }
 
 /* Post list */
