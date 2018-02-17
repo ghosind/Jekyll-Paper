@@ -19,7 +19,7 @@ layout: default
     <div class="jp-post-categories">
       <span>Categories:</span>
       {% for category in page.categories %}
-      <a href="{{ site.baseurl }}/categories#{{ category }}" class="jp-post-category">{{ category }}</a>
+      <span class="jp-post-category">{{ category }}</span>
       {% endfor %}
     </div>
     <div class="jp-post-tags">
