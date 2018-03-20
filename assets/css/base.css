@@ -129,6 +129,7 @@ th {
 /* Main */
 .jp-main {
   width: 95%;
+  min-height: calc(100vh - 153px);
   margin: 10px auto;
   overflow: hidden;
 }
@@ -160,6 +161,7 @@ th {
 }
 
 .jp-posts-list-item-name {
+  width: calc(100% - 100px);
   font-weight: 300;
 }
 
