@@ -21,6 +21,12 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 domain: "example.com" # the domain name for your site, e.g. example.com
+language: en 
+# Supported languages list:
+# en: English
+# zh_cn: Simplified Chinese
+
+analytics:   # the Google Analytics property ID, e.g. UA-XXXXX-Y
 
 paginate: 25
 paginate_path: "/page:num/"

@@ -14,16 +14,16 @@ layout: default
   </div>
   <div class="jp-post-other">
     <div class="jp-post-date">
-      Written on {{ page.date | date: "%B %e, %Y" }}.
+      {{ site.data.lang[site.language].post_write_date }}{{ page.date | date: "%Y-%m-%e" }}
     </div>
     <div class="jp-post-categories">
-      <span>Categories:</span>
+      <span>{{ site.data.lang[site.language].post_categories }}</span>
       {% for category in page.categories %}
       <span class="jp-post-category">{{ category }}</span>
       {% endfor %}
     </div>
     <div class="jp-post-tags">
-      <span>Tags:</span>
+      <span>{{ site.data.lang[site.language].post_tags }}</span>
       {% for tag in page.tags %}
       <span class="jp-post-tag">{{ tag }}</span>
       {% endfor %}
@@ -31,12 +31,12 @@ layout: default
     <div class="jp-post-tools">
       {% if page.previous %}
       <div>
-        <span>Previous: </span><a href="{{ page.previous.url }}">{{ page.previous.title }}</a>
+        <span>{{ site.data.lang[site.language].post_previous }}</span><a href="{{ page.previous.url }}">{{ page.previous.title }}</a>
       </div>
       {% endif %}
       {% if page.next %}
       <div>
-        <span>Next: </span><a href="{{ page.next.url }}">{{ page.next.title }}</a>
+        <span>{{ site.data.lang[site.language].post_next }}</span><a href="{{ page.next.url }}">{{ page.next.title }}</a>
       </div>
       {% endif %}
     </div>

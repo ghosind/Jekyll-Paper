@@ -124,12 +124,13 @@ th {
   float: left;
   position: relative;
   margin: 0 10px;
+  line-height: 24px;
 }
 
 /* Main */
 .jp-main {
   width: 95%;
-  min-height: calc(100vh - 153px);
+  min-height: calc(100vh - 159px);
   margin: 10px auto;
   overflow: hidden;
 }
