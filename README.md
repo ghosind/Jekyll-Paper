@@ -2,6 +2,15 @@
 
 Jekyll Paper is a simple Jekyll theme, and it is aim to helping you to create your own blog by the easiest way. Jekyll Paper was designed as a paper book style, giving the reader a sense of what it looked like to read a paper book.
 
+## Features
+
+- Responsive
+- Paginate
+- RSS
+- Custom 404 page
+- Table of contents
+- Multiple Language Support
+
 ## Getting Start
 
 Jekyll Paper is easy to create your own blog. You can create your blog by four steps only!

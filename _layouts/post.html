@@ -29,14 +29,14 @@ layout: default
       {% endfor %}
     </div>
     <div class="jp-post-tools">
-      {% if page.previous %}
-      <div>
-        <span>{{ site.data.lang[site.language].post_previous }}</span><a href="{{ page.previous.url }}">{{ page.previous.title }}</a>
-      </div>
-      {% endif %}
       {% if page.next %}
       <div>
         <span>{{ site.data.lang[site.language].post_next }}</span><a href="{{ page.next.url }}">{{ page.next.title }}</a>
+      </div>
+      {% endif %}
+      {% if page.previous %}
+      <div>
+        <span>{{ site.data.lang[site.language].post_previous }}</span><a href="{{ page.previous.url }}">{{ page.previous.title }}</a>
       </div>
       {% endif %}
     </div>
