@@ -33,11 +33,16 @@ paginate_path: "/page:num/"
 
 permalink: /:year/:month/:day/:title
 
+sass:
+  sass_dir: _sass
+  compressed: true
+
 # Build settings
 markdown: kramdown
 plugins:
   - jekyll-feed
   - jekyll-paginate
+  - jekyll-sitemap
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
