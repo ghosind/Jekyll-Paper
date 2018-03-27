@@ -10,6 +10,7 @@ Jekyll Paper is a simple Jekyll theme, and it is aim to helping you to create yo
 - Sitemap
 - Custom 404 page
 - Table of contents
+- SASS
 - Multiple Language Support
 
 ## Getting Start
