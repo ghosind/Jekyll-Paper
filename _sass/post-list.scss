@@ -1,0 +1,17 @@
+.jp-posts-list-item {
+  display: block;
+  position: relative;
+  line-height: 24px;
+  margin: 5px 0;
+  overflow: hidden;
+}
+
+.jp-posts-list-item-name {
+  width: calc(100% - 100px);
+  font-weight: 300;
+}
+
+.jp-list-pagination {
+  margin: 20px 0 10px 0;
+  text-align: center;
+}

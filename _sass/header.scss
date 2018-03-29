@@ -1,0 +1,34 @@
+.jp-header {
+  width: 100%;
+  padding: 10px 0;
+  border-bottom: solid 1px #aaa;
+  overflow: hidden;
+}
+
+.jp-hd-site-info {
+  display: block;
+  position: relative;
+  margin: 10px;
+}
+
+.jp-hd-info-name {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.jp-hd-info-desc {
+  font-size: .9em;
+}
+
+.jp-hd-site-nav {
+  margin: 0;
+  list-style: none;
+}
+
+.jp-hd-site-nav-item {
+  display: block;
+  position: relative;
+  float: left;
+  line-height: 24px;
+  margin: 0 10px;
+}

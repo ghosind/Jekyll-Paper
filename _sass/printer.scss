@@ -1,0 +1,32 @@
+@media print {
+  /* Header */
+  .jp-header {
+    display: none;
+  }
+
+  /* Footer */
+  .jp-footer {
+    display: none;
+  }
+
+  /* Post */
+  .jp-post-title {
+    text-align: center;
+  }
+
+  .jp-post-author {
+    display: block;
+    text-align: center;
+  }
+
+  .jp-post-other {
+    display: none;
+  }
+
+  /* Highlight */
+  pre.highlight {
+    overflow-x: hidden;
+    word-wrap: break-word;
+    white-space: pre-wrap;
+  }
+}

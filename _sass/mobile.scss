@@ -1,0 +1,17 @@
+@media screen and (max-width: 768px) {
+  /* reset default styles */
+  img {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  /* Posts list */
+  .jp-list-pagination {
+    margin: 10px 0 5px 0;
+  }
+
+  /* Footer */
+  .jp-ft-copyright .jp-left, .jp-ft-copyright .jp-right {
+    float: none;
+  }
+}
