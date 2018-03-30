@@ -35,7 +35,7 @@ permalink: /:year/:month/:day/:title
 
 sass:
   sass_dir: _sass
-  style: compressed
+  style: expanded # compressed, compact, expanded or compressed
 
 # Build settings
 markdown: kramdown
