@@ -11,7 +11,7 @@ en:
   post_previous: "Previous: "
   post_next: "Next: "
 
-zh_cn:
+zh-Hans:
   nav_home: "首页"
   nav_about: "关于"
   paginator_previous: "前一页"

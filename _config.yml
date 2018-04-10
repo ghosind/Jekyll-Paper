@@ -24,7 +24,7 @@ domain: "example.com" # the domain name for your site, e.g. example.com
 language: en 
 # Supported languages list:
 # en: English
-# zh_cn: Simplified Chinese
+# zh-Hans: Simplified Chinese
 
 analytics:   # the Google Analytics property ID, e.g. UA-XXXXX-Y
 

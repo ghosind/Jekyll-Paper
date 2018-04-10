@@ -1,4 +1,4 @@
-  <article>
+  <div class="jp-posts-wrapper">
   {% for post in paginator.posts %}
     <div class="jp-posts-list-item">
       <span class="jp-posts-list-item-name jp-left"><a href="{{ post.url }}">{{ post.title }}</a></span>
@@ -21,4 +21,4 @@
       {% endif %}
     </div>
   {% endif %}
-  </article>
+  </div>
