@@ -9,7 +9,7 @@ Jekyll Paper is a simple Jekyll theme, and it is aim to helping you to create yo
 - RSS
 - Sitemap
 - Custom 404 page
-- Table of contents
+- Custom navigation menu
 - SASS
 - Multiple language support
 
