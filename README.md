@@ -13,7 +13,7 @@ Github Pages version is also available in [Jekyll Paper for Github][jekyll-paper
 - Custom 404 page
 - Custom navigation menu
 - SASS
-- Multiple language support
+- Multiple languages supports
 - Categories Index
 
 ## Getting Start
@@ -29,6 +29,14 @@ Jekyll Paper is easy to create your own blog. You can create your blog by four s
 ## Add New Posts
 
 You can add new posts at any time after you had your own blog. Create a new post need to add a new file in "_posts" directory, and the file name must follow the convention `YYYY-MM-DD-name-of-post.md`.
+
+## Supported languages
+
+- English
+- Español (Spanish)
+- Français (French)
+- 简体中文 (Simplified Chinese)
+- 繁體中文 (Traditional Chinese)
 
 ## Contributing
 

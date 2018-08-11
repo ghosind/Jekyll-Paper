@@ -10,6 +10,30 @@ en:
   post_next: "Next: "
   categories_title: "Categories"
 
+es:
+  paginator_previous: "Anterior"
+  paginator_pages: "Página: "
+  paginator_next: "Siguiente"
+  notification_404: "Página no encontrada :("
+  post_write_date: "Escrito en "
+  post_categories: "Categorías: "
+  post_tags: "Etiquetas: "
+  post_previous: "Anterior: "
+  post_next: "Siguiente: "
+  categories_title: "Categorías"
+
+fr:
+  paginator_previous: "Précédent"
+  paginator_pages: "Page: "
+  paginator_next: "Prochain"
+  notification_404: "Page non trouvée :("
+  post_write_date: "Écrit sur "
+  post_categories: "Catégories: "
+  post_tags: "Étiquette: "
+  post_previous: "Précédent: "
+  post_next: "Prochain: "
+  categories_title: "Catégories"
+
 zh-cn:
   paginator_previous: "前一页"
   paginator_pages: "页数："
