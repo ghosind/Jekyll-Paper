@@ -14,6 +14,7 @@ Github Pages version is also available in [Jekyll Paper for Github][jekyll-paper
 - Custom navigation menu
 - SASS
 - Multiple language support
+- Categories Index
 
 ## Getting Start
 
@@ -22,7 +23,8 @@ Jekyll Paper is easy to create your own blog. You can create your blog by four s
 1. `~ $ gem install bundler jekyll`
 2. `~ $ git clone git@github.com:ghosind/Jekyll-Paper.git`
 3. `~ $ cd Jekyll-Paper`
-4. `Jekyll-Paper $ bundle exec jekyll serve`
+4. `Jekyll-Paper $ bundle install`
+5. `Jekyll-Paper $ bundle exec jekyll serve`
 
 ## Add New Posts
 

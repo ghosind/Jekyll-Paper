@@ -19,7 +19,7 @@ layout: default
     <div class="jp-post-categories">
       <span>{{ site.data.lang[site.language].post_categories }}</span>
       {% for category in page.categories %}
-      <span class="jp-post-category">{{ category }}</span>
+      <a href="{{ site.baseurl }}/category/{{ category | slugify }}" class="jp-post-category">{{ category }}</a>
       {% endfor %}
     </div>
     <div class="jp-post-tags">

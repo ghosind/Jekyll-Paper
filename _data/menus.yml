@@ -1,5 +1,8 @@
 - title: "Index"
   url:   ""
 
+- title: "Categories"
+  url:   "category"
+
 - title: "About"
   url:   "about"

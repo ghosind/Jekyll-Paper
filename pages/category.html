@@ -1,0 +1,16 @@
+---
+layout: default
+title: Categories
+permalink: /category/
+---
+
+<article class="jp-post">
+  <div class="jp-post-title">
+    <h1>{{ site.data.lang[site.language].categories_title }}</h1>
+  </div>
+  <ul class="jp-categories-list">
+    {% for category in site.categories %}
+      <li><a href="{{ base.url }}/category/{{ category | first | slugify }}">{{ category | first }}</a></li>
+    {% endfor %}
+  </ul>
+</article>

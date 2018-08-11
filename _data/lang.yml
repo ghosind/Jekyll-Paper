@@ -8,14 +8,28 @@ en:
   post_tags: "Tags: "
   post_previous: "Previous: "
   post_next: "Next: "
+  categories_title: "Categories"
 
-zh-Hans:
+zh-cn:
   paginator_previous: "前一页"
   paginator_pages: "页数："
   paginator_next: "后一页"
   notification_404: "找不到此页：（"
   post_write_date: "发表于："
-  post_categories: "目录："
+  post_categories: "分类："
   post_tags: "标签："
   post_previous: "前一篇："
   post_next: "后一篇："
+  categories_title: "分类"
+
+zh-hk:
+  paginator_previous: "前一頁"
+  paginator_pages: "頁數："
+  paginator_next: "後一頁"
+  notification_404: "找不到此頁：（"
+  post_write_date: "發表於："
+  post_categories: "分類："
+  post_tags: "標籤："
+  post_previous: "前一篇："
+  post_next: "後一篇："
+  categories_title: "分類"

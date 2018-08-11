@@ -1,0 +1,13 @@
+---
+layout: default
+---
+ <article class="jp-post">
+  <div class="jp-post-title">
+    <h1>{{ page.title }}</h1>
+  </div>
+  <ul class="jp-categories-list">
+  {% for post in page.posts %}
+    <li><span>{{ post.date | date: "%b %e, %Y" }}: </span><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
+  {% endfor %}
+  </ul>
+</article>
