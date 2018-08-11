@@ -13,12 +13,13 @@ Github Pages version is also available in [Jekyll Paper for Github][jekyll-paper
 - Custom 404 page
 - Custom navigation menu
 - SASS
-- Multiple languages supports
+- Multiple languages support
+- Configurable navigation menu
 - Categories Index
 
 ## Getting Start
 
-Jekyll Paper is easy to create your own blog. You can create your blog by four steps only!
+Jekyll Paper is easy to create your own blog. You can create your blog by five steps only!
 
 1. `~ $ gem install bundler jekyll`
 2. `~ $ git clone git@github.com:ghosind/Jekyll-Paper.git`
@@ -30,7 +31,21 @@ Jekyll Paper is easy to create your own blog. You can create your blog by four s
 
 You can add new posts at any time after you had your own blog. Create a new post need to add a new file in "_posts" directory, and the file name must follow the convention `YYYY-MM-DD-name-of-post.md`.
 
-## Supported languages
+## Custom Navigation Menu
+
+You can add or update navigation menu items in `_data/menus.yml` file. In the configuration file, you need set title and URL for every navigation menu item.
+
+### Example
+
+```yml
+- title: "Index"
+  url:   ""
+
+- title: "About"
+  url:   "about"
+```
+
+## Supported Languages
 
 - English
 - Español (Spanish)

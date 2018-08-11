@@ -1,0 +1,18 @@
+### Jekyll Paper v1.2.0
+
+- [Add] Configurable navigation menu.
+- [Add] Categories index.
+- [Add] French, Spanish, and Traditional Chinese supported.
+- [Update] Add pages folder.
+- [Update] Center the post's title.
+- [Fix] Validate HTML.
+
+### Jekyll Paper v1.1.0
+
+- [Add] Support for multiple languages (English and Simplified Chinese).
+- [Add] Sitemap.
+- [Update] Converted CSS to SASS.
+
+### Jekyll Paper v1.0.0
+
+- Basic implementations.
