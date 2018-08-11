@@ -2,6 +2,8 @@
 
 Jekyll Paper is a simple Jekyll theme, and it is aim to helping you to create your own blog by the easiest way. Jekyll Paper was designed as a paper book style, giving the reader a sense of what it looked like to read a paper book.
 
+Github Pages version is also available in [Jekyll Paper for Github][jekyll-paper-github].
+
 ## Features
 
 - Responsive
@@ -17,10 +19,10 @@ Jekyll Paper is a simple Jekyll theme, and it is aim to helping you to create yo
 
 Jekyll Paper is easy to create your own blog. You can create your blog by four steps only!
 
-1. Fork your own copy of [Jekyll Paper][jekyll-paper] repository to your Github account.
-2. Open setting page of your repository.
-3. Change repository name to your_github_username.github.io.
-4. Enter your_github_name.github.io.
+1. `~ $ gem install bundler jekyll`
+2. `~ $ git clone git@github.com:ghosind/Jekyll-Paper.git`
+3. `~ $ cd Jekyll-Paper`
+4. `Jekyll-Paper $ bundle exec jekyll serve`
 
 ## Add New Posts
 
@@ -37,4 +39,5 @@ If you have any questions or suggestions, you can create an issue on [Jekyll Pap
 Jekyll Paper项目提供了中文版的[使用介绍](https://github.com/ghosind/Jekyll-Paper/wiki/%E5%BC%80%E5%A7%8B%E4%BD%BF%E7%94%A8Jekyll-Paper)及[文档](https://github.com/ghosind/Jekyll-Paper/wiki#%E4%B8%AD%E6%96%87%E7%89%88%E7%94%A8%E6%88%B7%E6%89%8B%E5%86%8Cchinese-version)。
 
 [jekyll-paper]: https://github.com/ghosind/Jekyll-Paper
+[jekyll-paper-github]: https://github.com/ghosind/Jekyll-Paper-Github
 [jekyll-paper-issues]: https://github.com/ghosind/Jekyll-Paper/issues
