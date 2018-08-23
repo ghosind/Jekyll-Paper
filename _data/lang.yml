@@ -10,6 +10,18 @@ en:
   post_next: "Next: "
   categories_title: "Categories"
 
+de:
+  paginator_previous: "Bisherige"
+  paginator_pages: "Seite: "
+  paginator_next: "Nächster"
+  notification_404: "Seite nicht gefunden :("
+  post_write_date: "Geschrieben auf "
+  post_categories: "Kategorien: "
+  post_tags: "Etikett: "
+  post_previous: "Bisherige: "
+  post_next: "Nächster: "
+  categories_title: "Kategorien"
+
 es:
   paginator_previous: "Anterior"
   paginator_pages: "Página: "
@@ -34,6 +46,30 @@ fr:
   post_next: "Prochain: "
   categories_title: "Catégories"
 
+ja:
+  paginator_previous: "前のページ"
+  paginator_pages: "ページ数："
+  paginator_next: "次のページ"
+  notification_404: "このページは見つかりませんでした：（"
+  post_write_date: "公開された："
+  post_categories: "分類："
+  post_tags: "ラベル："
+  post_previous: "前の記事："
+  post_next: "次の記事："
+  categories_title: "分類"
+
+pt:
+  paginator_previous: "Anterior"
+  paginator_pages: "Página: "
+  paginator_next: "Próximo"
+  notification_404: "Página não encontrada :("
+  post_write_date: "Escrito em "
+  post_categories: "Categorias: "
+  post_tags: "Etiquetas: "
+  post_previous: "Anterior: "
+  post_next: "Próximo: "
+  categories_title: "Categorias"
+
 zh-cn:
   paginator_previous: "前一页"
   paginator_pages: "页数："
@@ -46,7 +82,7 @@ zh-cn:
   post_next: "后一篇："
   categories_title: "分类"
 
-zh-hk:
+zh-tw:
   paginator_previous: "前一頁"
   paginator_pages: "頁數："
   paginator_next: "後一頁"

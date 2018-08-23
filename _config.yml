@@ -24,10 +24,13 @@ domain: "example.com" # the domain name for your site, e.g. example.com
 language: en
 # Supported languages list:
 # en: English
+# de: Deutsche (German)
 # es: Español (Spanish)
 # fr: Français (French)
+# ja: 日本語 (Japanese)
+# pt: Português (Portuguese)
 # zh-cn: 简体中文 (Simplified Chinese)
-# zh-hk: 繁體中文 (Traditional Chinese)
+# zh-tw: 繁體中文 (Traditional Chinese)
 
 analytics:   # the Google Analytics property ID, e.g. UA-XXXXX-Y
 
