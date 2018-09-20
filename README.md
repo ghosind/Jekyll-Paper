@@ -11,7 +11,6 @@ Github Pages version is also available in [Jekyll Paper for Github][jekyll-paper
 - RSS
 - Sitemap
 - Custom 404 page
-- Custom navigation menu
 - SASS
 - Multiple languages support
 - Configurable navigation menu
@@ -41,15 +40,24 @@ You can add or update navigation menu items in `_data/menus.yml` file. In the co
 - title: "Index"
   url:   ""
 
+- title: "Github"
+  absoluteUrl: true
+  url: "https://github.com/john_doe"
+
 - title: "About"
   url:   "about"
 ```
 
 ## Supported Languages
 
+This list order by language codes alphabets.
+
 - English
+- Deutsche (German)
 - Español (Spanish)
 - Français (French)
+- 日本語 (Japanese)
+- Português (Portuguese)
 - 简体中文 (Simplified Chinese)
 - 繁體中文 (Traditional Chinese)
 

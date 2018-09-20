@@ -5,7 +5,7 @@
 <nav class="jp-hd-nav">
   <ul class="jp-hd-site-nav">
   {% for item in site.data.menus %}
-    <li class="jp-hd-site-nav-item"><a href="{{ site.baseurl }}/{{ item.url }}">{{ item.title }}</a></li>
+    <li class="jp-hd-site-nav-item"><a href="{% if item.absoluteUrl != true %}{{ site.baseurl }}/{% endif %}{{ item.url }}">{% if item.default %}{{ site.data.lang[site.language][item.default] }}{% else %}{{ item.title }}{% endif %}</a></li>
   {% endfor %}
   </ul>
 </nav>
