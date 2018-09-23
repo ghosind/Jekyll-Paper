@@ -25,7 +25,7 @@ layout: default
     <div class="jp-post-tags">
       <span>{{ site.data.lang[site.language].post_tags }}</span>
       {% for tag in page.tags %}
-      <span class="jp-post-tag">{{ tag }}</span>
+      <a href="{{ site.baseurl }}/tag/{{ tag | slugify }}" class="jp-post-tag">{{ tag }}</a>
       {% endfor %}
     </div>
     <div class="jp-post-tools">

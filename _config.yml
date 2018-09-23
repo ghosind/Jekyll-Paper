@@ -47,10 +47,11 @@ sass:
 jekyll-archives:
   enabled: 
     - categories
-  layouts:
-    category: archive
+    - tags
+  layout: archive
   permalinks:
     category: /category/:name/
+    tag: /tag/:name/
 
 # Build settings
 markdown: kramdown
