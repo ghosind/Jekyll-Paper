@@ -1,3 +1,11 @@
+### Jekyll Paper v1.2.1
+
+- [Add] German, Japanese, and Portuguese supported.
+- [Add] Menu supports absolute URL.
+- [Add] Defautlt menu items (index, categories, and about).
+- [Add] Posts update date. 
+- [Add] Tag archives.
+
 ### Jekyll Paper v1.2.0
 
 - [Add] Configurable navigation menu.
