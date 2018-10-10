@@ -9,7 +9,9 @@
   <meta name="description" content="{{ site.description }}">
   {% endif %}
   <meta name="author" content="{{ site.name }}">
-
+  {% if site.keywords or page.tags %}
+  <meta name="keywords" content="{% if page.tags %}{{ page.tags | join: ','}}{% else %}{{ site.keywords | join: ',' }}{% endif %}">
+  {% endif %}
   <link rel="shortcut icon" href="/favicon.ico" />
   <link rel="apple-touch-icon" href="/favicon.ico"/>
   <link rel="canonical" href="{{ page.url | prepend: site.url }}">
