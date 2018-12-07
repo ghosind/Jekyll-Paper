@@ -15,6 +15,8 @@ Github Pages version is also available in [Jekyll Paper for Github][jekyll-paper
 - Multiple languages support
 - Configurable navigation menu
 - Categories Index
+- SEO optimization
+- Comments
 
 ## Getting Start
 

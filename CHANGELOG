@@ -1,8 +1,18 @@
+### Jekyll Paper v1.2.2
+
+- [Add] Meta keywords.
+- [Add] Disqus comments support.
+- [Update] Update Jekyll to 3.8.5.
+- [Update] Update Jekyll-feed to 0.11.0.
+- [Update] Update task list style.
+- [Fix] Date format.
+- [Fix] Highlighter style.
+
 ### Jekyll Paper v1.2.1
 
 - [Add] German, Japanese, and Portuguese supported.
 - [Add] Menu supports absolute URL.
-- [Add] Defautlt menu items (index, categories, and about).
+- [Add] Default menu items (index, categories, and about).
 - [Add] Posts update date. 
 - [Add] Tag archives.
 
