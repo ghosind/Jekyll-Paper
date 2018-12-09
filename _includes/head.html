@@ -1,25 +1,17 @@
-  <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}{% if site.description%} - {{ site.description }}{% endif %}</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+{% seo %}
+{% if site.keywords or page.tags %}
+<meta name="keywords" content="{% if page.tags %}{{ page.tags | join: ','}}{% else %}{{ site.keywords | join: ',' }}{% endif %}">
+{% endif %}
+<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="apple-touch-icon" href="/favicon.ico"/>
+<link rel="alternate" type="application/rss+xml" title="{{ site.title }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
+<link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/css/base.css" />
+<link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/css/highlight.css" />
 
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  {% if page.excerpt %}
-  <meta name="description" content="{{ page.excerpt | strip_html }}">
-  {% else %}
-  <meta name="description" content="{{ site.description }}">
-  {% endif %}
-  <meta name="author" content="{{ site.name }}">
-  {% if site.keywords or page.tags %}
-  <meta name="keywords" content="{% if page.tags %}{{ page.tags | join: ','}}{% else %}{{ site.keywords | join: ',' }}{% endif %}">
-  {% endif %}
-  <link rel="shortcut icon" href="/favicon.ico" />
-  <link rel="apple-touch-icon" href="/favicon.ico"/>
-  <link rel="canonical" href="{{ page.url | prepend: site.url }}">
-  <link rel="alternate" type="application/rss+xml" title="{{ site.title }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
-  <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/css/base.css" />
-  <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/css/highlight.css" />
-
-  <!--[if lt IE 9]>
-    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-  <![endif]-->
-  {% if site.analytics %}{% include analytics.html %}{% endif %}
+<!--[if lt IE 9]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+{% if site.analytics %}{% include analytics.html %}{% endif %}
