@@ -1,5 +1,7 @@
 # Jekyll-Paper
 
+![Jekyll-Paper](./favicon.ico)
+
 Jekyll Paper is a simple Jekyll theme, and it is aim to helping you to create your own blog by the easiest way. Jekyll Paper was designed as a paper book style, giving the reader a sense of what it looked like to read a paper book.
 
 Github Pages version is also available in [Jekyll Paper for Github][jekyll-paper-github].
