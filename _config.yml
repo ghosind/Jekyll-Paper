@@ -64,6 +64,7 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-archives
+  - jekyll-seo-tag
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
