@@ -2,33 +2,33 @@
 layout: default
 ---
 
-<article class="jp-post">
-  <div class="jp-post-title">
+<article class="post-container">
+  <div class="post-title">
     <h1>{{ page.title }}</h1>
   </div>
-  <div class="jp-post-author">
+  <div class="post-author">
     <span>{{ site.name }}</span>
   </div>
-  <div class="jp-post-content">
+  <div class="post-content">
     {{ content }}
   </div>
-  <div class="jp-post-other">
-    <div class="jp-post-date">
+  <div class="post-info">
+    <div class="post-date">
       {{ site.data.lang[site.language].post_write_date }}{{ page.date | date: "%Y-%m-%d" }}{% if page.update %}, {{ site.data.lang[site.language].post_update_date }}{{ page.update | date: "%Y-%m-%d" }}{% endif %}.
     </div>
-    <div class="jp-post-categories">
+    <div class="post-categories">
       <span>{{ site.data.lang[site.language].post_categories }}</span>
       {% for category in page.categories %}
-      <a href="{{ site.baseurl }}/category/{{ category | slugify }}" class="jp-post-category">{{ category }}</a>
+      <a href="{{ site.baseurl }}/category/{{ category | slugify }}" class="post-category">{{ category }}</a>
       {% endfor %}
     </div>
-    <div class="jp-post-tags">
+    <div class="post-tags">
       <span>{{ site.data.lang[site.language].post_tags }}</span>
       {% for tag in page.tags %}
-      <a href="{{ site.baseurl }}/tag/{{ tag | slugify }}" class="jp-post-tag">{{ tag }}</a>
+      <a href="{{ site.baseurl }}/tag/{{ tag | slugify }}" class="post-tag">{{ tag }}</a>
       {% endfor %}
     </div>
-    <div class="jp-post-tools">
+    <div class="post-tools">
       {% if page.next %}
       <div>
         <span>{{ site.data.lang[site.language].post_next }}</span><a href="{{ page.next.url }}">{{ page.next.title }}</a>
