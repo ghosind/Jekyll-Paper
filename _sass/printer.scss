@@ -1,25 +1,25 @@
 @media print {
   /* Header */
-  .jp-header {
+  .header-container {
     display: none;
   }
 
   /* Footer */
-  .jp-footer {
+  .footer-container {
     display: none;
   }
 
   /* Post */
-  .jp-post-title {
+  .post-title {
     text-align: center;
   }
 
-  .jp-post-author {
+  .post-author {
     display: block;
     text-align: center;
   }
 
-  .jp-post-other {
+  .post-other {
     display: none;
   }
 

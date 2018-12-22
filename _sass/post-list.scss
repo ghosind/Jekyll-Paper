@@ -1,4 +1,4 @@
-.jp-posts-list-item {
+.posts-list-item {
   display: block;
   position: relative;
   line-height: 24px;
@@ -6,12 +6,12 @@
   overflow: hidden;
 }
 
-.jp-posts-list-item-name {
+.posts-list-item-name {
   width: calc(100% - 100px);
   font-weight: 300;
 }
 
-.jp-list-pagination {
+.posts-list-pagination {
   margin: 20px 0 10px 0;
   text-align: center;
 }
