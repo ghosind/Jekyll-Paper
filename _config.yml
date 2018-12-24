@@ -41,6 +41,8 @@ paginate_path: "/page:num/"
 comments: false  # enable comments
 disqus:          # disqus account
 
+mathjax: true
+
 permalink: /:year/:month/:day/:title
 
 sass:
