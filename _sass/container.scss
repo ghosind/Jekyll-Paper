@@ -1,17 +1,27 @@
+@charset "utf-8";
+
 .container-wrapper {
   width: 100%;
   margin: 0 auto;
   max-width: 800px;
 }
 
-.float-left {
-  float: left;
+.container-header {
+  width: 100%;
+  padding: 10px 0;
+  border-bottom: solid 1px #aaa;
+  overflow: hidden;
 }
 
-.float-right {
-  float: right;
+.container-main {
+  width: 95%;
+  margin: 10px auto;
+  overflow: hidden;
+  min-height: calc(100vh - 159px);
 }
 
-.float-center {
-  text-align: center;
+.container-footer {
+  padding: 10px 0;
+  border-top: solid 1px #aaa;
+  overflow: hidden;
 }

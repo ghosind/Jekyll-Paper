@@ -1,3 +1,5 @@
+@charset "utf-8";
+
 @media print {
   /* Header */
   .header-container {
@@ -19,7 +21,7 @@
     text-align: center;
   }
 
-  .post-other {
+  .post-info {
     display: none;
   }
 
