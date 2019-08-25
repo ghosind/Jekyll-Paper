@@ -41,7 +41,8 @@ paginate_path: "/page:num/"
 comments: false  # enable comments
 disqus:          # disqus account
 
-mathjax: true
+mathjax: true # Mathematics
+mermaid: true # Diagrams
 
 permalink: /:year/:month/:day/:title
 

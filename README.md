@@ -26,12 +26,13 @@ This is a [demo website](https://www.ghosind.com) for Jekyll Paper.
 - Sitemap
 - Custom 404 page
 - SASS
-- Multiple languages support
+- Multiple languages
 - Configurable navigation menu
 - Categories Index
 - SEO optimization
+- Mathematics
+- Diagrams
 - Comments
-- Math support
 
 ## Getting Start
 
