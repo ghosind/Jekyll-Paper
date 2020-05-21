@@ -1,3 +1,9 @@
 const loadMermaid = () => {
-  mermaid.init({ startOnLoad: true }, 'pre code.language-mermaid');
+  mermaid.init(
+    {
+      startOnLoad: true,
+      theme: 'default',
+    },
+    'pre code.language-mermaid',
+  );
 };
