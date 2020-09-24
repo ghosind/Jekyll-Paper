@@ -18,7 +18,7 @@ This is a [demo website](https://www.ghosind.com) for Jekyll Paper.
 - Sitemap
 - Custom 404 page
 - SASS
-- Multiple languages
+- Internationalization
 - Configurable navigation menu
 - Categories Index
 - SEO optimization
@@ -60,7 +60,7 @@ You can add or update navigation menu items in `_data/menus.yml` file. In the co
 
 ## Supported Languages
 
-Jekyll Paper has supported the following languages. I'm anticipating you to help me improve the quality of translations and add more languages. The languages list by alphabets of its language code.
+Jekyll Paper has supported the following languages, please set language in `language` section of `_config.yml` file (default `language: en`). I'm anticipating you to help me improve the quality of translations and add more languages. The languages list by alphabets of its language code.
 
 - English
 - Deutsche (German)

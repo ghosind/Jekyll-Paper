@@ -18,7 +18,7 @@ Jekyll Paper for Github是Jekyll Paper为Github Pages所提供依赖制作的版
 - 分类目录索引
 - SASS
 - 可配置菜单栏
-- 多语言支持
+- 国际化
 - SEO优化
 - 数学公式支持 (MathJax)
 - 图表支持 (Mermaid)
@@ -58,7 +58,7 @@ Jekyll Paper的使用方法十分简单，只需要简单的几步即可创建�
 
 ## 支持的语言列表
 
-Jekyll Paper目前支持下列语言，欢迎参与提高翻译质量及增加更多语言。
+Jekyll Paper目前支持下列语言，欢迎参与提高翻译质量及增加更多语言。请在`_config.yml`文件中设置`language`的值，其默认值为`en`（`language: en`）。
 
 - 简体中文
 - 繁體中文
