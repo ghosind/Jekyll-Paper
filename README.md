@@ -6,7 +6,7 @@ English | [简体中文](./README-CN.md)
 
 Jekyll Paper is a simple Jekyll theme, and it is aim to helping you to create your own blog by the easiest way.
 
-Github Pages version is also available in [Jekyll Paper for Github][jekyll-paper-github].
+Unfortunately, Jekyll Paper implement the category page by 'jekyll-archive' plugin, and GitHub Pages does not support it. So, this project is for self-host blog, and the Github Pages version is also available in [Jekyll Paper for Github][jekyll-paper-github].
 
 This is a [demo website](https://www.ghosind.com) for Jekyll Paper.
 
