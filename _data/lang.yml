@@ -129,7 +129,7 @@ zh-tw:
 ko:
   menu_index: "색인"
   menu_category: "카테고리"
-  menu_about: "정보"
+  menu_about: "나의소개"
   paginator_previous: "이전"
   paginator_pages: "페이지: "
   paginator_next: "다음"
