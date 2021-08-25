@@ -70,6 +70,7 @@ Jekyll Paper has supported the following languages, please set language in `lang
 - Português (Portuguese)
 - 简体中文 (Simplified Chinese)
 - 繁體中文 (Traditional Chinese)
+- 한국어 (Korean)
 
 ## Screenshots
 
