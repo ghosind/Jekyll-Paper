@@ -125,3 +125,20 @@ zh-tw:
   post_previous: "前一篇："
   post_next: "後一篇："
   categories_title: "分類"
+
+ko:
+  menu_index: "색인"
+  menu_category: "카테고리"
+  menu_about: "정보"
+  paginator_previous: "이전"
+  paginator_pages: "페이지: "
+  paginator_next: "다음"
+  notification_404: "페이지를 찾을 수 없습니다:("
+  post_write_date: "작성일"
+  post_update_date: "업데이트된 날짜"
+  post_categories: "카테고리: "
+  post_tags: "태그: "
+  post_previous: "이전: "
+  post_next: "다음: "
+  category_title: "카테고리"
+

@@ -32,6 +32,7 @@ language: en
 # pt: Português (Portuguese)
 # zh-cn: 简体中文 (Simplified Chinese)
 # zh-tw: 繁體中文 (Traditional Chinese)
+# ko : 한국어(Korean)
 
 analytics:   # the Google Analytics property ID, e.g. UA-XXXXX-Y
 
