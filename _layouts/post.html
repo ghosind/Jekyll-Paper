@@ -13,6 +13,16 @@ layout: default
     {{ content }}
   </div>
   <div class="post-info">
+    {% if page.license %}
+    <span>{{ site.data.lang[site.language].post_license }}</span> {{ page.license }}
+    {% endif %}
+
+    {% if page.credit %}
+    <br>
+    <span></span>{{ site.data.lang[site.language].post_credit }}</span> {{ page.credit }}
+  {% endif %}
+  </div>
+  <div class="post-info">
     <div class="post-date">
       {{ site.data.lang[site.language].post_write_date }}{{ page.date | date: "%Y-%m-%d" }}{% if page.last_modified_at %}, {{ site.data.lang[site.language].post_update_date }}{{ page.last_modified_at | date: "%Y-%m-%d" }}{% endif %}.
     </div>

@@ -13,6 +13,8 @@ en:
   post_previous: "Previous: "
   post_next: "Next: "
   categories_title: "Categories"
+  post_license: "license: "
+  post_credit: "credit: "
 
 de:
   menu_index: "Index"
