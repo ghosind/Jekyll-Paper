@@ -47,9 +47,11 @@ es:
   categories_title: "Categorías"
 
 fr:
-  menu_index: "Indice"
+  menu_index: "À propos"
   menu_category: "Catégories"
-  menu_about: "Sur"
+  menu_about: "À propos"
+  menu_cv: "CV"
+  menu_blog: "Blogs"
   paginator_previous: "Précédent"
   paginator_pages: "Page: "
   paginator_next: "Prochain"

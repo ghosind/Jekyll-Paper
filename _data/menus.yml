@@ -1,12 +1,22 @@
 - default: menu_index
   url:   ""
 
-- default: menu_category
-  url:   "category"
+# - default: menu_about
+#   url: "apropos"
 
-- title: "Jekyll Paper"
+- default: menu_cv
+  url: "cv"
+
+- default: menu_blog
+  url: "blogs"
+
+# - default: menu_category
+#   url:   "category"
+
+- title: "LinkedIn"
   absoluteUrl: true
-  url: "https://github.com/ghosind/Jekyll-Paper"
+  url: "https://www.linkedin.com/in/thibault-carl/"
 
-- default: menu_about
-  url:   "about"
+- title: "GitHub"
+  absoluteUrl: true
+  url: "https://github.com/lalogiquefloue"
